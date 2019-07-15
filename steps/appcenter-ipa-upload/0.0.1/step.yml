@@ -7,7 +7,7 @@ description: |
 website: https://github.com/kanari3/bitrise-step-appcenter-ipa-upload
 source_code_url: https://github.com/kanari3/bitrise-step-appcenter-ipa-upload
 support_url: https://github.com/kanari3/bitrise-step-appcenter-ipa-upload/issues
-published_at: 2019-07-15T21:19:43.467099+09:00
+published_at: 2019-07-15T21:24:12.241856+09:00
 source:
   git: https://github.com/kanari3/bitrise-step-appcenter-ipa-upload.git
   commit: 749f916d65d674c3dd2bd714bfa325ac49db2d4c
