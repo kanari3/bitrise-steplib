@@ -1,0 +1,52 @@
+title: my_orgin_step
+summary: |
+  hoge
+description: |
+  hogehoge
+website: https://github.com/kanari3/bitrise-step-my-orgin-step
+source_code_url: https://github.com/kanari3/bitrise-step-my-orgin-step
+support_url: https://github.com/kanari3/bitrise-step-my-orgin-step/issues
+published_at: 2020-09-01T23:34:11.762807+09:00
+source:
+  git: https://github.com/kanari3/bitrise-step-my-orgin-step.git
+  commit: bb6317e72bd22ad907c1477e6abe350f5e1ba7c2
+host_os_tags:
+- osx-10.10
+- ubuntu-16.04
+type_tags:
+- utility
+toolkit:
+  bash:
+    entry_file: step.sh
+deps:
+  brew:
+  - name: git
+  - name: wget
+  apt_get:
+  - name: git
+  - name: wget
+is_requires_admin_user: true
+is_always_run: false
+is_skippable: false
+run_if: ""
+inputs:
+- example_step_input: Default Value - you can leave this empty if you want to
+  opts:
+    description: |
+      Description of this input.
+
+      Can be Markdown formatted text.
+    is_expand: true
+    is_required: true
+    summary: Summary. No more than 2-3 sentences.
+    title: Example Step Input
+    value_options: []
+outputs:
+- EXAMPLE_STEP_OUTPUT: null
+  opts:
+    description: |
+      Description of this output.
+
+      Can be Markdown formatted text.
+    summary: Summary. No more than 2-3 sentences.
+    title: Example Step Output
